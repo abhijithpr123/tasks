@@ -1,28 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            /* font-family:;0 */
+        }
+    </style>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    <div class="main w-screen h-screen bg-sky-500 bg-[url(/images/bg-tablet-pattern.svg)] bg-no-repeat bg-position-[right_-8rem_top_-10rem]">
-        <div class="nav w-screen h-30 flex justify-evenly items-center gap-2">
+    <div
+        class="main gap-5 flex-col flex justify-center items-center w-full bg-[url(/images/bg-tablet-pattern.svg)] bg-no-repeat bg-position-[right_-8rem_top_-10rem]">
+        <div class="nav w-full h-30 flex justify-evenly items-center gap-2">
             <div class="nav1 flex flex-1 justify-center"><img src="/images/logo.svg" alt="" class=""></div>
             <div class="nav2 flex flex-1">
-                <ul class="flex gap-8 text-gray-100">
-                    <li><a href="" class="text-[16px] text-gary-100">Pricing</a></li>
-                    <li><a href="" class="text-[16px] text-gary-100">Product</a></li>
-                    <li><a href="" class="text-[16px] text-gary-100">About Us</a></li>
-                    <li><a href="" class="text-[16px] text-gary-100">Careers</a></li>
-                    <li><a href="" class="text-[16px] text-gary-100">Community</a></li>
+                <ul class="flex gap-8 text-gray-700 text-[16px]">
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Community</a></li>
                 </ul>
             </div>
             <div class="nav3 flex flex-1 justify-center items-center">
-                <button class="w-[100px] rounded-[50px] h-[40px] bg-orange-500">Get Started</button>
+                <button class="w-[100px] rounded-[50px] h-[40px] bg-orange-500 shadow-xl/30">Get Started</button>
+            </div>
+        </div>
+        <div class="part1 flex-1 flex gap-30 w-[77%]">
+            <div class="p1 flex flex-col w-[80%] gap-5">
+                <h1 class="text-[50px] font-bold">Bring everyone together to build better products.</h1>
+                <p class="text-gray-700 w-[70%] text-[16px]/8">Manage makes it simple for software teams to plan
+                    day-to-day tasks while keeping the larger team goals in view.</p>
+                <button class="w-[100px] rounded-[50px] h-[40px] bg-orange-500 shadow-xl/30">Get Started</button>
+            </div>
+            <div class="p2 flex w-[90%]">
+                <img src="/images/illustration-intro.svg" alt="" class="w-[90%] h-115">
+            </div>
+        </div>
+        <div class="part2 flex w-[77%]">
+            <div class="p1 w-[50%]">
+                <h3 class="text-[35px] font-bold w-[70%]">What's different about Manage?</h3>
+                <p class="text-gray-700 w-[60%] text-[16px]/8">Manage provides all the functionality your team needs,
+                    without thecomplexity.Our software is tailor-made for modern digital product teams.</p>
+            </div>
+            <div class="p2 w-[50%]">
+                <div class="innerp2 flex gap-4">
+                    <div
+                        class="number1 flex flex-1 justify-center items-center h-[30px] w-[50px] bg-orange-500 rounded-[50px]">
+                        1</div>
+                    <div class="inp2 flex gap-5 flex-col flex-7">
+                        <h1>Track company-wide progress</h1>
+                        <p class="w-[82%]">See how your day-to-day tasks fit into the wider vision.
+                            go form traching progress at the milestone level all the way done to the smallest of
+                            details.Never lose sight of the bigger picture again.
+                        </p>
+                    </div>
+                </div>
+                <div class="innerp2 flex gap-4">
+                    <div
+                        class="number2 flex flex-1 justify-center items-center h-[30px] w-[50px] bg-orange-500 rounded-[50px]">
+                        2</div>
+                    <div class="inp2 flex gap-5 flex-col flex-7 mt-2">
+                        <h1>Advanced built-in reports</h1>
+                        <p class="w-[82%]">Set internal delivery estimates and track progress toward company goals.Our
+                            customisable dashboard helps you build out the reports you need to keep key stakeholders
+                            informed.</p>
+                    </div>
+                </div>
+                <div class="innerp2 flex gap-4">
+                    <div
+                        class="number3 flex flex-1 justify-center items-center h-[30px] w-[50px] bg-orange-500 rounded-[50px]">
+                        3</div>
+                    <div class="inp2 flex gap-5 flex-col flex-7 mt-2">
+                        <h1>Everything you need in one place</h1>
+                        <p class="w-[82%]">Stop jumping from one service to another to communicate, store files, track
+                            tasks and share documents.Manage offers an all-in-one team productivity solution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-[200px] p-5">
+            <h1 class="text-[35px] text-center font-bold">What they've said</h1>
+        </div>
+        <div class="part3 items-center w-full ">
+
+            <div class="inner3 flex justify-evenly">
+                <div class="bg-sky-100 absalute">
+                    <div class="relative bottom-12">
+                        <div class="avatar1 flex justify-center"><img src="/images/avatar-ali.png" alt=""
+                                class="w-[90px] h-[90px]"></div>
+                        <h1 class="text-xl text-center font-bold">Anisha Li</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint labore, aliquam aliquid
+                            aspernatur
+                            dolore soluta maxime a aperiam rerum repellat, cum voluptatum hic fugiat animi sed veniam
+                            debitis ratione. Eos!</p>
+                    </div>
+                </div>
+                <div class="bg-sky-100 absalute">
+                    <div class="relative bottom-12">
+                        <div class="avatar2 flex justify-center"><img src="/images/avatar-anisha.png" alt=""
+                                class="w-[90px] h-[90px]"></div>
+                        <h1 class="text-xl text-center font-bold">Ali Bravo</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint officia consequatur neque
+                            repellendus magnam aliquam distinctio expedita maiores. Exercitationem a obcaecati sapiente
+                            in
+                            esse fugit numquam maxime mollitia minus cum.</p>
+                    </div>
+                </div>
+                <div class="bg-sky-100 absalute">
+                    <div class="relative bottom-12">
+                        <div class="avatar3 flex justify-center"><img src="/images/avatar-richard.png" alt=""
+                                class="w-[90px] h-[90px]"></div>
+                        <h1 class="text-xl text-center font-bold">Richard Watts</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda delectus quidem fugit,
+                            voluptates ipsa aperiam ratione odio sapiente? Laborum suscipit velit quas, quasi nulla
+                            debitis
+                            officia numquam id qui dolorum.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
