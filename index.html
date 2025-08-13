@@ -11,13 +11,25 @@
             padding: 0%;
             /* font-family:;0 */
         }
+
+        .f4in {
+            padding-left: 10px;
+            /* font-size:10px; */
+        }
+        .inp2 P{
+            padding-bottom: 10PX;
+        }
+        .part3{
+            margin-top: 20px;
+        }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
+    <div class="bg-[url(/images/bg-tablet-pattern.svg)] bg-no-repeat bg-position-[left_-29rem_top_66rem]">
     <div
-        class="main gap-5 flex-col flex justify-center items-center w-full bg-[url(/images/bg-tablet-pattern.svg)] bg-no-repeat bg-position-[right_-8rem_top_-10rem]">
+        class="main gap-17 flex-col flex justify-center items-center w-full bg-[url(/images/bg-tablet-pattern.svg)] bg-no-repeat bg-position-[right_-10rem_top_-14rem]">
         <div class="nav w-full h-30 flex justify-evenly items-center gap-2">
             <div class="nav1 flex flex-1 justify-center"><img src="/images/logo.svg" alt="" class=""></div>
             <div class="nav2 flex flex-1">
@@ -30,7 +42,7 @@
                 </ul>
             </div>
             <div class="nav3 flex flex-1 justify-center items-center">
-                <button class="w-[100px] rounded-[50px] h-[40px] bg-orange-500 shadow-xl/30">Get Started</button>
+                <button class="w-[100px] rounded-[50px] h-[40px] bg-orange-500 text-white shadow-xl/30">Get Started</button>
             </div>
         </div>
         <div class="part1 flex-1 flex gap-30 w-[77%]">
@@ -38,25 +50,27 @@
                 <h1 class="text-[50px] font-bold">Bring everyone together to build better products.</h1>
                 <p class="text-gray-700 w-[70%] text-[16px]/8">Manage makes it simple for software teams to plan
                     day-to-day tasks while keeping the larger team goals in view.</p>
-                <button class="w-[100px] rounded-[50px] h-[40px] bg-orange-500 shadow-xl/30">Get Started</button>
+                <button class="w-[100px] rounded-[50px] h-[40px] bg-orange-500 text-white shadow-xl/30">Get Started</button>
             </div>
             <div class="p2 flex w-[90%]">
-                <img src="/images/illustration-intro.svg" alt="" class="w-[90%] h-115">
+                <img src="/images/illustration-intro.svg" alt="" class="w-[100%] h-130">
             </div>
         </div>
+
+        
         <div class="part2 flex w-[77%]">
             <div class="p1 w-[50%]">
                 <h3 class="text-[35px] font-bold w-[70%]">What's different about Manage?</h3>
-                <p class="text-gray-700 w-[60%] text-[16px]/8">Manage provides all the functionality your team needs,
+                <p class="text-gray-700 w-[55%] text-[16px]/8">Manage provides all the functionality your team needs,
                     without thecomplexity.Our software is tailor-made for modern digital product teams.</p>
             </div>
-            <div class="p2 w-[50%]">
+            <div class="p2 w-[50%] text-[16px]/8 text-gray-700">
                 <div class="innerp2 flex gap-4">
                     <div
-                        class="number1 flex flex-1 justify-center items-center h-[30px] w-[50px] bg-orange-500 rounded-[50px]">
-                        1</div>
+                        class="number1 flex flex-1 justify-center items-center h-[30px] w-[50px] text-white bg-orange-500 rounded-[50px]">
+                        01</div>
                     <div class="inp2 flex gap-5 flex-col flex-7">
-                        <h1>Track company-wide progress</h1>
+                        <h1 class="font-bold text-black">Track company-wide progress</h1>
                         <p class="w-[82%]">See how your day-to-day tasks fit into the wider vision.
                             go form traching progress at the milestone level all the way done to the smallest of
                             details.Never lose sight of the bigger picture again.
@@ -65,10 +79,10 @@
                 </div>
                 <div class="innerp2 flex gap-4">
                     <div
-                        class="number2 flex flex-1 justify-center items-center h-[30px] w-[50px] bg-orange-500 rounded-[50px]">
-                        2</div>
+                        class="number2 flex flex-1 justify-center items-center h-[30px] w-[50px] text-white bg-orange-500 rounded-[50px]">
+                        02</div>
                     <div class="inp2 flex gap-5 flex-col flex-7 mt-2">
-                        <h1>Advanced built-in reports</h1>
+                        <h1 class="font-bold text-black">Advanced built-in reports</h1>
                         <p class="w-[82%]">Set internal delivery estimates and track progress toward company goals.Our
                             customisable dashboard helps you build out the reports you need to keep key stakeholders
                             informed.</p>
@@ -76,27 +90,27 @@
                 </div>
                 <div class="innerp2 flex gap-4">
                     <div
-                        class="number3 flex flex-1 justify-center items-center h-[30px] w-[50px] bg-orange-500 rounded-[50px]">
-                        3</div>
+                        class="number3 flex flex-1 justify-center items-center h-[30px] w-[50px] text-white bg-orange-500 rounded-[50px]">
+                        03</div>
                     <div class="inp2 flex gap-5 flex-col flex-7 mt-2">
-                        <h1>Everything you need in one place</h1>
+                        <h1 class="font-bold text-black">Everything you need in one place</h1>
                         <p class="w-[82%]">Stop jumping from one service to another to communicate, store files, track
                             tasks and share documents.Manage offers an all-in-one team productivity solution.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="w-full h-[200px] p-5">
+        <div class="heading1 flex justify-center items-center w-full h-[150px]">
             <h1 class="text-[35px] text-center font-bold">What they've said</h1>
         </div>
         <div class="part3 items-center w-full ">
 
-            <div class="inner3 flex justify-evenly">
+            <div class="inner3 flex gap-8 justify-evenly text-[16px]/8 text-gray-700">
                 <div class="bg-sky-100 absalute">
                     <div class="relative bottom-12">
                         <div class="avatar1 flex justify-center"><img src="/images/avatar-ali.png" alt=""
                                 class="w-[90px] h-[90px]"></div>
-                        <h1 class="text-xl text-center font-bold">Anisha Li</h1>
+                        <h1 class="text-xl text-center text-black font-bold">Anisha Li</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint labore, aliquam aliquid
                             aspernatur
                             dolore soluta maxime a aperiam rerum repellat, cum voluptatum hic fugiat animi sed veniam
@@ -107,7 +121,7 @@
                     <div class="relative bottom-12">
                         <div class="avatar2 flex justify-center"><img src="/images/avatar-anisha.png" alt=""
                                 class="w-[90px] h-[90px]"></div>
-                        <h1 class="text-xl text-center font-bold">Ali Bravo</h1>
+                        <h1 class="text-xl text-center text-black font-bold">Ali Bravo</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint officia consequatur neque
                             repellendus magnam aliquam distinctio expedita maiores. Exercitationem a obcaecati sapiente
                             in
@@ -118,7 +132,7 @@
                     <div class="relative bottom-12">
                         <div class="avatar3 flex justify-center"><img src="/images/avatar-richard.png" alt=""
                                 class="w-[90px] h-[90px]"></div>
-                        <h1 class="text-xl text-center font-bold">Richard Watts</h1>
+                        <h1 class="text-xl text-center text-black font-bold">Richard Watts</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda delectus quidem fugit,
                             voluptates ipsa aperiam ratione odio sapiente? Laborum suscipit velit quas, quasi nulla
                             debitis
@@ -127,6 +141,53 @@
                 </div>
             </div>
         </div>
+        <div class=" h-30 flex ">
+            <button class="w-[100px] rounded-[50px] h-[40px] bg-orange-500 text-white shadow-xl/30">Get Started</button>
+        </div>
+        
+
+        <div class="w-full">
+            <div class="part4 bg-orange-500 w-full flex justify-center bg-[url(/images/bg-simplify-section-desktop.svg)] bg-no-repeat bg-position-[left_18rem_bottom]">
+                <div class="h-50 w-[77%] flex justify-between items-center">
+                    <div class="in4_1">
+                        <h1 class="text-[38px]  text-white font-bold w-[70%]">Simplify how your team works today.</h1>
+                    </div>
+                    <div class="in4_2"><button class="w-[100px] rounded-[50px] text-orange-500 h-[40px] bg-white">Get
+                            Started</button></div>
+                </div>
+            </div>
+            <div class="foot bg-black w-full h-50  flex justify-center">
+                <div class="w-[77%] h-full flex items-center">
+                    <div class="foot1 flex  flex-col flex-1 h-[60%] text-white justify-between">
+                        <img src="/images/logo.svg" alt="" class="w-[50%]">
+                        <div class="sociallogo flex gap-4">
+                            <img src="/images/icon-facebook.svg" alt="" class="sicon">
+                            <img src="/images/icon-youtube.svg" alt="" class="sicon">
+                            <img src="/images/icon-twitter.svg" alt="" class="sicon">
+                            <img src="/images/icon-pinterest.svg" alt="" class="sicon">
+                            <img src="/images/icon-instagram.svg" alt="" class="sicon">
+                        </div>
+                    </div>
+                    <div class="foot2 flex flex-col flex-1 text-white text-[13px]/8">
+                        <p>Home</p>
+                        <p>Pricing</p>
+                        <p>Product</p>
+                        <p>About Us</p>
+                    </div>
+                    <div class="foot3 flex flex-col h-[60%] flex-1 text-white text-[13px]/8">
+                        <p>Careers</p>
+                        <p>Community</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div class="foot4 flex gap-4 flex-1">
+                        <input type="text" placeholder="Update n your inbox..."
+                            class="f4in text-gray-700 w-[70%] bg-white text-[13px] h-11 rounded-[50px]">
+                        <button class="bg-orange-500 h-11 rounded-[50px] w-[60px] text-[13px] text-white">Go</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 </body>
 

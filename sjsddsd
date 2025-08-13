@@ -1,5 +1,9 @@
-<div class="p1 bg-sky-100 flex flex-col flex-1 gap-5 w-[80%]">
-    <h3 class="text-[35px] font-bold w-[70%]">What's different about Manage?</h3>
-    <p class="text-gray-700 w-[60%] text-[16px]/8">Manage provides all the functionality your team needs, without the
-        complexity. Our software is tailor-made for modern digital product teams.</p>
-</div>
+<div class="socialicon">
+                        <img src="/facebook1.png" alt="" class="sicon">
+                        <img src="/twitter.png" alt="" class="sicon">
+                        <img src="/linkedin.png" alt="" class="sicon">
+                        <img src="/instagram (1).png" alt="" class="sicon">
+                        <img src="/pinterest.png" alt="" class="sicon">
+                    </div>
+                    <p>© All rights reserved by Chempakam, Cochin, India.</p>
+                    </div>
